@@ -49,9 +49,27 @@ namespace Students_Manager
             cbGender.SelectedItem = null;
 
         }
+
+        private void AddStudentNotification()
+        {
+            notifyIcon1.Icon = SystemIcons.Information;
+            notifyIcon1.BalloonTipText = "Student Added Succesfully";
+            notifyIcon1.BalloonTipTitle = "Add Student";
+            notifyIcon1.ShowBalloonTip(1000);
+        }
+
+        private void DeleteStudentNotificaiton()
+        {
+            notifyIcon1.Icon = SystemIcons.Warning;
+            notifyIcon1.BalloonTipIcon = ToolTipIcon.Warning;
+            notifyIcon1.BalloonTipTitle = "Delete Student";
+            notifyIcon1.BalloonTipText = "Student Deleted Succesfully";
+            notifyIcon1.ShowBalloonTip(1000);
+        }
         private void btnAdd_Click(object sender, EventArgs e)
         {
             AddStudent();
+            AddStudentNotification();
         }
 
         private void rbListViewLargeIcon_CheckedChanged(object sender, EventArgs e)
@@ -88,7 +106,7 @@ namespace Students_Manager
                     listView1.Items.Remove(listView1.SelectedItems[0]);
                 }
             }
-            
+            DeleteStudentNotificaiton();
         }
     }
 }

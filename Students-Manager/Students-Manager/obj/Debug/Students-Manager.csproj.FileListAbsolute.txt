@@ -9,3 +9,14 @@ C:\Users\DELL\Desktop\.Net Projects\Students-Manager\Students-Manager\obj\Debug\
 C:\Users\DELL\Desktop\.Net Projects\Students-Manager\Students-Manager\obj\Debug\Students-Manager.csproj.CoreCompileInputs.cache
 C:\Users\DELL\Desktop\.Net Projects\Students-Manager\Students-Manager\obj\Debug\Students-Manager.exe
 C:\Users\DELL\Desktop\.Net Projects\Students-Manager\Students-Manager\obj\Debug\Students-Manager.pdb
+C:\Users\DELL\Desktop\My-GitHub\Students-Manager\Students-Manager\Students-Manager\bin\Debug\Students-Manager.exe.config
+C:\Users\DELL\Desktop\My-GitHub\Students-Manager\Students-Manager\Students-Manager\bin\Debug\Students-Manager.exe
+C:\Users\DELL\Desktop\My-GitHub\Students-Manager\Students-Manager\Students-Manager\bin\Debug\Students-Manager.pdb
+C:\Users\DELL\Desktop\My-GitHub\Students-Manager\Students-Manager\Students-Manager\obj\Debug\Students-Manager.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\My-GitHub\Students-Manager\Students-Manager\Students-Manager\obj\Debug\Students-Manager.csproj.SuggestedBindingRedirects.cache
+C:\Users\DELL\Desktop\My-GitHub\Students-Manager\Students-Manager\Students-Manager\obj\Debug\Students_Manager.Form1.resources
+C:\Users\DELL\Desktop\My-GitHub\Students-Manager\Students-Manager\Students-Manager\obj\Debug\Students_Manager.Properties.Resources.resources
+C:\Users\DELL\Desktop\My-GitHub\Students-Manager\Students-Manager\Students-Manager\obj\Debug\Students-Manager.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\My-GitHub\Students-Manager\Students-Manager\Students-Manager\obj\Debug\Students-Manager.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\My-GitHub\Students-Manager\Students-Manager\Students-Manager\obj\Debug\Students-Manager.exe
+C:\Users\DELL\Desktop\My-GitHub\Students-Manager\Students-Manager\Students-Manager\obj\Debug\Students-Manager.pdb

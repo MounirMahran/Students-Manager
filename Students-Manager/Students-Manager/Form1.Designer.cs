@@ -53,6 +53,8 @@
             this.PhoneNumber = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Gender = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.BirthDate = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.imageList2 = new System.Windows.Forms.ImageList(this.components);
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.rbListViewTiles = new System.Windows.Forms.RadioButton();
             this.rbListViewList = new System.Windows.Forms.RadioButton();
@@ -60,8 +62,7 @@
             this.rbListViewLargeIcon = new System.Windows.Forms.RadioButton();
             this.rbListViewDetails = new System.Windows.Forms.RadioButton();
             this.label8 = new System.Windows.Forms.Label();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.imageList2 = new System.Windows.Forms.ImageList(this.components);
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -283,6 +284,20 @@
             this.BirthDate.Text = "Birth Date";
             this.BirthDate.Width = 193;
             // 
+            // imageList2
+            // 
+            this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
+            this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList2.Images.SetKeyName(0, "avatar_face_girl_female_woman_profile_smiley_happy_people_icon_181656.png");
+            this.imageList2.Images.SetKeyName(1, "avatar_face_man_boy_profile_smiley_happy_people_icon_181659.png");
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "avatar_face_girl_female_woman_profile_smiley_happy_people_icon_181656.png");
+            this.imageList1.Images.SetKeyName(1, "avatar_face_man_boy_profile_smiley_happy_people_icon_181659.png");
+            // 
             // panel1
             // 
             this.panel1.Controls.Add(this.rbListViewTiles);
@@ -367,19 +382,10 @@
             this.label8.TabIndex = 14;
             this.label8.Text = "View";
             // 
-            // imageList1
+            // notifyIcon1
             // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "avatar_face_girl_female_woman_profile_smiley_happy_people_icon_181656.png");
-            this.imageList1.Images.SetKeyName(1, "avatar_face_man_boy_profile_smiley_happy_people_icon_181659.png");
-            // 
-            // imageList2
-            // 
-            this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
-            this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList2.Images.SetKeyName(0, "avatar_face_girl_female_woman_profile_smiley_happy_people_icon_181656.png");
-            this.imageList2.Images.SetKeyName(1, "avatar_face_man_boy_profile_smiley_happy_people_icon_181659.png");
+            this.notifyIcon1.Text = "notifyIcon1";
+            this.notifyIcon1.Visible = true;
             // 
             // Form1
             // 
@@ -438,6 +444,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ImageList imageList2;
         private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
     }
 }
 
